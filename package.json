@@ -1,0 +1,16 @@
+{
+  "name": "calculator-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI calculator that evaluates two-operand expressions (e.g., '2 + 3').",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["calculator", "cli", "arithmetic"],
+  "license": "MIT"
+}
